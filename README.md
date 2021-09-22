@@ -9,12 +9,12 @@ Right Arrow Key:    Move Right <br>
 
 ## File Details
 
-bullet-movement.js - contains the logic behind the bullets, movement
-patuti-movement.js - contains the logic behind patuti's movement
-functions.js - contains helper functions
-variables.js - contains all variables needed for the game
-game-over.js - contains the logic behind the gameover setting
-collision-detection.js - contains the logic for detecting collision
+bullet-movement.js - contains the logic behind the bullets, movement <br>
+patuti-movement.js - contains the logic behind patuti's movement <br>
+functions.js - contains helper functions <br>
+variables.js - contains all variables needed for the game <br> <br>
+game-over.js - contains the logic behind the gameover setting <br>
+collision-detection.js - contains the logic for detecting collision <br>
 
 ## Resource/s
 

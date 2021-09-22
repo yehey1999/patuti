@@ -21,10 +21,8 @@ body {
     position: relative;
     width: 570px;
     height: 550px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    margin: 0 auto;
+    margin: 70px auto;
+    background: pink;
 }
 
 #patuti {
@@ -57,17 +55,17 @@ body {
 
 #bullet-h-1 {
     right: 0;
-    top: 26%;
+    top: 300px;
 }
 
 #bullet-h-2 {
     right: 0;
-    top: 38%;
+    top: 400px;
 }
 
 #bullet-h-3 {
     right: 0;
-    top: 55%;
+    top: 580px;
 }
 
 #bullet-v-1 {

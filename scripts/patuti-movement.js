@@ -12,38 +12,38 @@ let isActItRunning = false;
 
 let moves = [
     [
-        "images/patuti/idle-1.png",
-        "images/patuti/idle-2.png"
+        "../images/patuti/idle-1.png",
+        "../images/patuti/idle-2.png"
     ],
     [
-        "images/patuti/left-1.png",
-        "images/patuti/left-2.png",
-        "images/patuti/left-3.png",
-        "images/patuti/left-4.png",
-        "images/patuti/left-5.png"
+        "../images/patuti/left-1.png",
+        "../images/patuti/left-2.png",
+        "../images/patuti/left-3.png",
+        "../images/patuti/left-4.png",
+        "../images/patuti/left-5.png"
     ],
     [   
-        "images/patuti/right-1.png",
-        "images/patuti/right-2.png",
-        "images/patuti/right-3.png",
-        "images/patuti/right-4.png",
-        "images/patuti/right-5.png"
+        "../images/patuti/right-1.png",
+        "../images/patuti/right-2.png",
+        "../images/patuti/right-3.png",
+        "../images/patuti/right-4.png",
+        "../images/patuti/right-5.png"
     ],
     [
-        "images/patuti/jump-1.png", 
-        "images/patuti/jump-2.png", 
-        "images/patuti/jump-3.png", 
-        "images/patuti/jump-4.png", 
-        "images/patuti/jump-5.png", 
-        "images/patuti/jump-6.png", 
-        "images/patuti/jump-7.png" 
+        "../images/patuti/jump-1.png", 
+        "../images/patuti/jump-2.png", 
+        "../images/patuti/jump-3.png", 
+        "../images/patuti/jump-4.png", 
+        "../images/patuti/jump-5.png", 
+        "../images/patuti/jump-6.png", 
+        "../images/patuti/jump-7.png" 
     ],
     [
-        "images/patuti/dock-4.png", 
-        "images/patuti/dock-4.png", 
-        "images/patuti/dock-4.png", 
-        "images/patuti/dock-4.png",
-        "images/patuti/dock-4.png",
+        "../images/patuti/dock-4.png", 
+        "../images/patuti/dock-4.png", 
+        "../images/patuti/dock-4.png", 
+        "../images/patuti/dock-4.png",
+        "../images/patuti/dock-4.png",
     ],
 ];
 

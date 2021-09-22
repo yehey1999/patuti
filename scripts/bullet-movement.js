@@ -41,6 +41,8 @@ $(function () {
         // *---end
         
         if (life > 0) {
+            // * requestAnimationFrame is recursively called here in order to update your animation screen 
+            // * if patuti has still life left, then the bullet animation should continue until patuti's life become 0
             anim_id = requestAnimationFrame(the_game);
         } else {
             stop_the_game();

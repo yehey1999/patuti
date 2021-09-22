@@ -26,4 +26,4 @@ collision-detection.js - contains the logic for detecting collision <br>
 
 ## Constraint/s
 
-1. Only one bullet per bullet groups (top/bullet_v, right/bullet_h) will move in every initializatio and when it its the patuti, wall or floor
+1. Only one bullet per bullet groups (top/bullet_v, right/bullet_h) will move in every initialization and after it hits the patuti, wall or floor

@@ -2,10 +2,10 @@
 
 ## Game Instructions
 
-Up Arrow Key:       Jump
-Down Arrow Key:     Dock
-Left Arrow Key:     Move Left
-Right Arrow Key:    Move Right
+Up Arrow Key:       Jump <br>
+Down Arrow Key:     Dock <br>
+Left Arrow Key:     Move Left <br>
+Right Arrow Key:    Move Right <br>
 
 ## File Details
 

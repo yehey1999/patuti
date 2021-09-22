@@ -32,7 +32,7 @@
 				<div class="bar"></div>
 				<div class="bar"></div>
 			</div>
-			<!-- floor and wall serve as indicator that the bullet will go back to inital its position when they hit these object -->
+			<!-- floor and wall serve as indicator that the bullet will go back to inital its position when they hit these object, you cannot see these objects because they have no background, check the style.css for their styling -->
 			<div id="floor"></div>
 			<div id="wall"></div>
 		</div>
@@ -40,7 +40,8 @@
 			<h1 id="description">Game Over</h1>
 			<h4 id="restart">Tap to Try Again</h4>
 		</div>
-		<!-- Do not reorder these js files -->
+		<!-- Suggestion: Do not reorder these js files -->
+		<!-- However, you may reorder the files here but when you use a function from another file, make sure that the file for that function is called first before the caller file. That is why functions.js is called first and all the succeeding files are using the functions inside functions.js. -->
 		<script src="scripts/collision-detection.js"></script>
 		<script src="scripts/variables.js"></script>
 		<script src="scripts/functions.js"></script>

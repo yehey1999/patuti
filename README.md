@@ -26,6 +26,4 @@ collision-detection.js - contains the logic for detecting collision <br>
 
 ## Constraint/s
 
-1. Multiple clicks in jump button will double the jump of patuti (Done Improvement, temporary solution, right now it will not double jump)
-2. Moving to the left or right will still continue when it exceeds on the designated area (Done Improvement, right now, it will not exceed)
-3. Only one bullet per bullet groups (top/bullet_v, right/bullet_h) will move in every initializatio and when it its the patuti, wall or floor
+1. Only one bullet per bullet groups (top/bullet_v, right/bullet_h) will move in every initializatio and when it its the patuti, wall or floor

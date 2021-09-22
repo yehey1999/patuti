@@ -1,0 +1,139 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#game {
+    display: flex;
+    height: 100%;
+    background: url(../images/utils/background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    width: 570px;
+    height: 550px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#patuti {
+    max-width: 200px;
+    max-height: 200px;
+    position: absolute;
+    bottom: 0;
+}
+
+#area {
+    height: 200px;
+    width: 570px;
+    position: absolute;
+    bottom: -192px;
+}
+
+#floor {
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#wall {
+    height: 100%;
+    width: 20px;
+    position: absolute;
+    left: 0;
+}
+
+#bullet-h-1 {
+    right: 0;
+    top: 26%;
+}
+
+#bullet-h-2 {
+    right: 0;
+    top: 38%;
+}
+
+#bullet-h-3 {
+    right: 0;
+    top: 55%;
+}
+
+#bullet-v-1 {
+    top: -100px;
+    left: 39%;
+}
+
+#bullet-v-2 {
+    top: -100px;
+    left: 49%;
+}
+
+#bullet-v-3 {
+    top: -100px;
+    left: 59%;
+}
+
+.bullet-h {
+    width: 80px;
+    height: 40px;
+}
+
+.bullet-v {
+    width: 40px;
+    height: 80px;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+#score-bar {
+    height: 50px;
+    width: 400px;
+    border: 5px solid black;
+    background: red;
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(10,1fr);
+    padding: 5px 5px;
+}
+
+#score-bar > div {
+    background: green;
+}
+
+#game-over {
+    background: purple;
+    color: green;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+#game-over #description {
+    font-size: 92px;
+}
+
+#game-over #restart {
+    font-size: 40px;
+    cursor: pointer;
+}

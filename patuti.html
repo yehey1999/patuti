@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+	</head>
+	<body>
+		<div id="game">
+			<div class="container">
+				<img id="patuti" src="images/patuti/idle-1.png">
+				<img id="area" src="images/utils/area.png">
+			</div>
+			<div>
+				<img id="bullet-h-1" class="position-absolute bullet-h" src="images/utils/bullet_h.png">
+				<img id="bullet-h-2" class="position-absolute bullet-h" src="images/utils/bullet_h.png">
+				<img id="bullet-h-3" class="position-absolute bullet-h" src="images/utils/bullet_h.png">
+			</div>
+			<div>
+				<img id="bullet-v-1" class="position-absolute bullet-v" src="images/utils/bullet_v.png">
+				<img id="bullet-v-2" class="position-absolute bullet-v" src="images/utils/bullet_v.png">
+				<img id="bullet-v-3" class="position-absolute bullet-v" src="images/utils/bullet_v.png">
+			</div>
+			<!-- if you want to add score bars, dont-forget to update the score life variable: default value is 10-->
+			<div id="score-bar">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+			<!-- floor and wall serve as indicator that the bullet will go back to inital its position when they hit these object -->
+			<div id="floor"></div>
+			<div id="wall"></div>
+		</div>
+		<div id="game-over">
+			<h1 id="description">Game Over</h1>
+			<h4 id="restart">Tap to Try Again</h4>
+		</div>
+		<!-- Do not reorder these js files -->
+		<script src="scripts/collision-detection.js"></script>
+		<script src="scripts/variables.js"></script>
+		<script src="scripts/functions.js"></script>
+		<script src="scripts/bullet-movement.js"></script>
+		<script src="scripts/patuti-movement.js"></script>
+		<script src="scripts/game-over.js"></script>
+	</body>
+</html>

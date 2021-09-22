@@ -2,19 +2,19 @@
 
 ## Game Instructions
 
-Up Arrow Key:       Jump
-Down Arrow Key:     Dock
-Left Arrow Key:     Move Left
-Right Arrow Key:    Move Right
+Up Arrow Key:       Jump <br>
+Down Arrow Key:     Dock <br>
+Left Arrow Key:     Move Left <br>
+Right Arrow Key:    Move Right <br>
 
 ## File Details
 
-bullet-movement.js - contains the logic behind the bullets, movement
-patuti-movement.js - contains the logic behind patuti's movement
-functions.js - contains helper functions
-variables.js - contains all variables needed for the game
-game-over.js - contains the logic behind the gameover setting
-collision-detection.js - contains the logic for detecting collision
+bullet-movement.js - contains the logic behind the bullets, movement <br>
+patuti-movement.js - contains the logic behind patuti's movement <br>
+functions.js - contains helper functions <br>
+variables.js - contains all variables needed for the game <br>
+game-over.js - contains the logic behind the gameover setting <br>
+collision-detection.js - contains the logic for detecting collision <br>
 
 ## Resource/s
 
@@ -26,6 +26,4 @@ collision-detection.js - contains the logic for detecting collision
 
 ## Constraint/s
 
-1. Multiple clicks in jump button will double the jump of patuti (Done Improvement, temporary solution, right now it will not double jump)
-2. Moving to the left or right will still continue when it exceeds on the designated area (Done Improvement, right now, it will not exceed)
-3. Only one bullet per bullet groups (top/bullet_v, right/bullet_h) will move in every initializatio and when it its the patuti, wall or floor
+1. Only one bullet per bullet groups (top/bullet_v, right/bullet_h) will move in every initializatio and when it its the patuti, wall or floor

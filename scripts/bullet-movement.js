@@ -48,6 +48,8 @@ $(function () {
         }
     };
 
+    // * requestAnimationFrame does 60 frame per second (fps) to appear smooth animation
+    // * this means that the_game function will be called when it’s time to update your animation for the next repaint.
     anim_id = requestAnimationFrame(the_game);
 });
 

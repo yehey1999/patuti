@@ -41,6 +41,7 @@ $(function () {
         // *---end
         
         if (life > 0) {
+            // 
             anim_id = requestAnimationFrame(the_game);
         } else {
             stop_the_game();

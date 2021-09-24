@@ -20,7 +20,7 @@ body {
 .container {
     position: relative;
     width: 570px;
-    height: 550px;
+    height: 480px;
     margin: 70px auto;
 }
 
@@ -54,17 +54,17 @@ body {
 
 #bullet-h-1 {
     right: 0;
-    top: 300px;
+    top: 260px;
 }
 
 #bullet-h-2 {
     right: 0;
-    top: 400px;
+    top: 350px;
 }
 
 #bullet-h-3 {
     right: 0;
-    top: 580px;
+    top: 500px;
 }
 
 #bullet-v-1 {
